@@ -83,6 +83,33 @@ const tournamentFeatures = [
   }
 ]
 
+const leagueFeatures = [
+  {
+    title: 'Flexible League Sizes',
+    description: 'Support for 4, 6, 8, 10, 12, or 16 players to fit any group.'
+  },
+  {
+    title: 'Round-Robin Formats',
+    description: 'Single round-robin (play everyone once) or home & away (double round-robin).'
+  },
+  {
+    title: 'Professional Standings',
+    description: 'Full league table with P, W, D, L, GF, GA, GD, Pts and automatic tiebreakers.'
+  },
+  {
+    title: 'Auto-Generated Fixtures',
+    description: 'Fixtures automatically created based on league size and format.'
+  },
+  {
+    title: 'Season Persistence',
+    description: 'Resume your league anytime with offline localStorage support.'
+  },
+  {
+    title: 'Champion Celebration',
+    description: 'Crown the winner when all matches are complete.'
+  }
+]
+
 const technicalFeatures = [
   {
     title: 'Progressive Web App',
@@ -329,8 +356,48 @@ const technicalFeatures = [
       </div>
     </section>
 
-    <!-- Technical Features -->
+    <!-- League Mode -->
     <section class="section-padding">
+      <div class="container-max">
+        <div class="grid lg:grid-cols-2 gap-12 items-center">
+          <div>
+            <span class="text-accent font-semibold text-sm uppercase tracking-wider">League Mode</span>
+            <h2 class="heading-3 text-white mt-2 mb-6">Season-Long Competition</h2>
+            <p class="text-white/70 mb-6">
+              Run full league seasons with round-robin fixtures, professional standings tables, and automatic fixture generation. Perfect for office competitions, friend groups, or regular gaming nights.
+            </p>
+            <div class="grid sm:grid-cols-2 gap-4">
+              <div
+                v-for="feature in leagueFeatures"
+                :key="feature.title"
+                class="flex items-start gap-3"
+              >
+                <svg class="w-5 h-5 text-accent mt-0.5 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                </svg>
+                <div>
+                  <p class="text-white font-medium text-sm">{{ feature.title }}</p>
+                  <p class="text-white/50 text-xs">{{ feature.description }}</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="glass-hover p-4">
+            <div class="aspect-video bg-gradient-to-br from-primary/20 to-accent/20 rounded-lg flex items-center justify-center">
+              <div class="text-center">
+                <svg class="w-16 h-16 text-white/40 mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 17V7m0 10a2 2 0 01-2 2H5a2 2 0 01-2-2V7a2 2 0 012-2h2a2 2 0 012 2m0 10a2 2 0 002 2h2a2 2 0 002-2M9 7a2 2 0 012-2h2a2 2 0 012 2m0 10V7m0 10a2 2 0 002 2h2a2 2 0 002-2V7a2 2 0 00-2-2h-2a2 2 0 00-2 2" />
+                </svg>
+                <p class="text-white/40">League Table Screenshot</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Technical Features -->
+    <section class="section-padding bg-white/5">
       <div class="container-max">
         <div class="mb-12 text-center">
           <span class="text-accent font-semibold text-sm uppercase tracking-wider">Technical Highlights</span>

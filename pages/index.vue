@@ -1,7 +1,7 @@
 <script setup lang="ts">
 useSeoMeta({
   title: 'TableMatch - Your Table Football Matches, Elevated',
-  description: 'Digital scoreboard and match management for table football, Subbuteo, and foosball. Track scores, run tournaments, and elevate your games.'
+  description: 'Digital scoreboard and match management for table football, Subbuteo, and foosball. Track scores, run tournaments and leagues, and elevate your games.'
 })
 
 const features = [
@@ -13,12 +13,17 @@ const features = [
   {
     icon: 'teams',
     title: 'Real & Custom Teams',
-    description: 'Choose from 11 major competitions or create Subbuteo-style coloured teams.'
+    description: 'Choose from 20+ competitions or create Subbuteo-style coloured teams.'
   },
   {
     icon: 'tournament',
     title: 'Tournament Mode',
     description: 'Run knockout tournaments for 4, 8, or 16 players with visual brackets.'
+  },
+  {
+    icon: 'league',
+    title: 'League Mode',
+    description: 'Season-long competitions with round-robin fixtures and professional standings.'
   },
   {
     icon: 'offline',
@@ -28,9 +33,9 @@ const features = [
 ]
 
 const stats = [
-  { value: '11', label: 'Competitions' },
+  { value: '20+', label: 'Competitions' },
   { value: '500+', label: 'Teams Available' },
-  { value: '16', label: 'Player Tournaments' },
+  { value: '16', label: 'Player Leagues' },
   { value: '100%', label: 'Free Forever' }
 ]
 </script>
@@ -111,7 +116,7 @@ const stats = [
           </p>
         </div>
 
-        <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-6">
           <div
             v-for="feature in features"
             :key="feature.title"
@@ -127,6 +132,9 @@ const stats = [
               </svg>
               <svg v-else-if="feature.icon === 'tournament'" class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" />
+              </svg>
+              <svg v-else-if="feature.icon === 'league'" class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 17V7m0 10a2 2 0 01-2 2H5a2 2 0 01-2-2V7a2 2 0 012-2h2a2 2 0 012 2m0 10a2 2 0 002 2h2a2 2 0 002-2M9 7a2 2 0 012-2h2a2 2 0 012 2m0 10V7m0 10a2 2 0 002 2h2a2 2 0 002-2V7a2 2 0 00-2-2h-2a2 2 0 00-2 2" />
               </svg>
               <svg v-else-if="feature.icon === 'offline'" class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.111 16.404a5.5 5.5 0 017.778 0M12 20h.01m-7.08-7.071c3.904-3.905 10.236-3.905 14.141 0M1.394 9.393c5.857-5.857 15.355-5.857 21.213 0" />
@@ -198,56 +206,6 @@ const stats = [
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
             </svg>
           </NuxtLink>
-        </div>
-      </div>
-    </section>
-
-    <!-- Testimonials Placeholder -->
-    <section class="section-padding">
-      <div class="container-max">
-        <div class="text-center mb-12 lg:mb-16">
-          <h2 class="heading-2 text-white mb-4">Loved by Players</h2>
-          <p class="subheading max-w-2xl mx-auto">
-            Join thousands of table football enthusiasts already using TableMatch.
-          </p>
-        </div>
-
-        <div class="grid md:grid-cols-3 gap-6">
-          <div class="glass-hover p-6">
-            <div class="flex items-center gap-1 mb-4">
-              <svg v-for="i in 5" :key="i" class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20">
-                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
-              </svg>
-            </div>
-            <p class="text-white/80 mb-4">
-              "Finally, a proper scoreboard app for Subbuteo! The custom team colours feature is exactly what we needed."
-            </p>
-            <p class="text-white/60 text-sm">- Subbuteo Enthusiast</p>
-          </div>
-
-          <div class="glass-hover p-6">
-            <div class="flex items-center gap-1 mb-4">
-              <svg v-for="i in 5" :key="i" class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20">
-                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
-              </svg>
-            </div>
-            <p class="text-white/80 mb-4">
-              "We use TableMatch for our weekly foosball tournament at the office. The bracket system is fantastic!"
-            </p>
-            <p class="text-white/60 text-sm">- Tournament Organiser</p>
-          </div>
-
-          <div class="glass-hover p-6">
-            <div class="flex items-center gap-1 mb-4">
-              <svg v-for="i in 5" :key="i" class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20">
-                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
-              </svg>
-            </div>
-            <p class="text-white/80 mb-4">
-              "Simple, beautiful, and works offline. Perfect for game nights with the kids."
-            </p>
-            <p class="text-white/60 text-sm">- Casual Player</p>
-          </div>
         </div>
       </div>
     </section>
