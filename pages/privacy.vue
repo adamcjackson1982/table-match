@@ -140,8 +140,8 @@ const lastUpdated = 'December 2024'
               <div>
                 <h2 class="heading-3 text-white mb-4">8. Contact Us</h2>
                 <p class="text-white/70">
-                  If you have any questions about this privacy policy, please contact us at
-                  <a href="mailto:hello@tablematch.com" class="text-accent hover:underline">hello@tablematch.com</a>.
+                  If you have any questions about this privacy policy, please
+                  <NuxtLink to="/about#contact" class="text-accent hover:underline">contact us</NuxtLink>.
                 </p>
               </div>
             </div>
@@ -158,7 +158,7 @@ const lastUpdated = 'December 2024'
           <p class="text-white/70 mb-6">
             No data collection means no worries. Just pure table football fun.
           </p>
-          <a href="https://app.tablematch.com" class="btn-primary">
+          <a href="https://app.tablematchapp.com" class="btn-primary">
             Launch TableMatch
             <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />

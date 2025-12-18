@@ -5,6 +5,11 @@ export default defineNuxtConfig({
 
   modules: ['@nuxtjs/tailwindcss'],
 
+  runtimeConfig: {
+    mailgunApiKey: process.env.MAILGUN_API_KEY,
+    mailgunDomain: process.env.MAILGUN_DOMAIN
+  },
+
   app: {
     head: {
       title: 'TableMatch - Your Table Football Matches, Elevated',
@@ -30,7 +35,11 @@ export default defineNuxtConfig({
 
   nitro: {
     prerender: {
-      routes: ['/', '/features', '/how-it-works', '/use-cases', '/about', '/faq', '/privacy', '/terms']
+      routes: ['/', '/features', '/how-it-works', '/about', '/faq', '/privacy', '/terms']
     }
+  },
+
+  routeRules: {
+    '/api/**': { ssr: true }
   }
 })

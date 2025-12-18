@@ -64,6 +64,13 @@
 }
 
 @layer utilities {
+  .bg-pitch {
+    background-image: url('/pitch-bg.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
   .bg-grid {
     background-image:
       linear-gradient(rgba(124, 58, 237, 0.1) 1px, transparent 1px),

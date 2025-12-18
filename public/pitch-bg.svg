@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 650" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <style>
+      .pitch-line {
+        fill: none;
+        stroke: rgba(124, 58, 237, 0.15);
+        stroke-width: 2;
+      }
+    </style>
+  </defs>
+
+  <!-- Pitch outline -->
+  <rect x="50" y="25" width="900" height="600" class="pitch-line"/>
+
+  <!-- Halfway line -->
+  <line x1="500" y1="25" x2="500" y2="625" class="pitch-line"/>
+
+  <!-- Center circle -->
+  <circle cx="500" cy="325" r="70" class="pitch-line"/>
+
+  <!-- Center spot -->
+  <circle cx="500" cy="325" r="3" fill="rgba(124, 58, 237, 0.15)"/>
+
+  <!-- Left penalty box -->
+  <rect x="50" y="175" width="130" height="300" class="pitch-line"/>
+
+  <!-- Left goal area (6-yard box) -->
+  <rect x="50" y="250" width="45" height="150" class="pitch-line"/>
+
+  <!-- Left penalty spot -->
+  <circle cx="140" cy="325" r="3" fill="rgba(124, 58, 237, 0.15)"/>
+
+  <!-- Right penalty box -->
+  <rect x="820" y="175" width="130" height="300" class="pitch-line"/>
+
+  <!-- Right goal area (6-yard box) -->
+  <rect x="905" y="250" width="45" height="150" class="pitch-line"/>
+
+  <!-- Right penalty spot -->
+  <circle cx="860" cy="325" r="3" fill="rgba(124, 58, 237, 0.15)"/>
+</svg>

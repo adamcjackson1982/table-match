@@ -244,15 +244,51 @@ const timeline = [
       </div>
     </section>
 
+    <!-- Contact -->
+    <section id="contact" class="section-padding">
+      <div class="container-max">
+        <div class="grid lg:grid-cols-2 gap-12 items-start">
+          <div>
+            <span class="text-accent font-semibold text-sm uppercase tracking-wider">Get In Touch</span>
+            <h2 class="heading-3 text-white mt-2 mb-6">Contact Us</h2>
+            <p class="text-white/70 mb-6">
+              Have a question, suggestion, or just want to say hello? We'd love to hear from you. Fill out the form and we'll get back to you as soon as possible.
+            </p>
+            <div class="space-y-4">
+              <div class="flex items-center gap-3">
+                <div class="w-10 h-10 rounded-lg bg-gradient-primary flex items-center justify-center shrink-0">
+                  <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                  </svg>
+                </div>
+                <span class="text-white/80">We'll reply to your email</span>
+              </div>
+              <div class="flex items-center gap-3">
+                <div class="w-10 h-10 rounded-lg bg-gradient-primary flex items-center justify-center shrink-0">
+                  <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                  </svg>
+                </div>
+                <span class="text-white/80">Usually respond within 24 hours</span>
+              </div>
+            </div>
+          </div>
+          <div class="glass-hover p-6 lg:p-8">
+            <ContactForm />
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- CTA -->
-    <section class="section-padding">
+    <section class="section-padding bg-white/5">
       <div class="container-max">
         <div class="glass-hover p-8 lg:p-16 text-center">
           <h2 class="heading-3 text-white mb-4">Join the Community</h2>
           <p class="subheading max-w-2xl mx-auto mb-8">
             Thousands of players already use TableMatch for their games. Become part of the community today.
           </p>
-          <a href="https://app.tablematch.com" class="btn-primary text-lg !px-8 !py-4">
+          <a href="https://app.tablematchapp.com" class="btn-primary text-lg !px-8 !py-4">
             Start Playing
             <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />

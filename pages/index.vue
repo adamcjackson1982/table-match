@@ -60,7 +60,7 @@ const stats = [
 
           <!-- CTAs -->
           <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <a href="https://app.tablematch.com" class="btn-primary text-lg !px-8 !py-4">
+            <a href="https://app.tablematchapp.com" class="btn-primary text-lg !px-8 !py-4">
               Launch App
               <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
@@ -166,7 +166,7 @@ const stats = [
             </div>
             <h3 class="text-xl font-semibold text-white mb-2">Open the App</h3>
             <p class="text-white/60">
-              Visit app.tablematch.com on any device. Add to home screen for quick access.
+              Visit app.tablematchapp.com on any device. Add to home screen for quick access.
             </p>
           </div>
 
@@ -260,7 +260,7 @@ const stats = [
           <p class="subheading max-w-2xl mx-auto mb-8">
             No installation, no signup, no cost. Start tracking your matches in seconds.
           </p>
-          <a href="https://app.tablematch.com" class="btn-primary text-lg !px-8 !py-4">
+          <a href="https://app.tablematchapp.com" class="btn-primary text-lg !px-8 !py-4">
             Launch TableMatch
             <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />

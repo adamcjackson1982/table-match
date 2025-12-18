@@ -151,7 +151,7 @@ const lastUpdated = 'December 2024'
                   Team data is sourced from football-data.org. The inclusion of team information does not imply any licensing of club branding rights. We do not claim any ownership or rights over third-party intellectual property.
                 </p>
                 <p class="text-white/70">
-                  If you are a rights holder and believe your intellectual property is being used inappropriately, please contact us at <a href="mailto:hello@tablematch.com" class="text-accent hover:underline">hello@tablematch.com</a> and we will address your concerns promptly.
+                  If you are a rights holder and believe your intellectual property is being used inappropriately, please <NuxtLink to="/about#contact" class="text-accent hover:underline">contact us</NuxtLink> and we will address your concerns promptly.
                 </p>
               </div>
 
@@ -230,8 +230,8 @@ const lastUpdated = 'December 2024'
               <div>
                 <h2 class="heading-3 text-white mb-4">13. Contact Us</h2>
                 <p class="text-white/70">
-                  If you have any questions about these Terms, please contact us at
-                  <a href="mailto:hello@tablematch.com" class="text-accent hover:underline">hello@tablematch.com</a>.
+                  If you have any questions about these Terms, please
+                  <NuxtLink to="/about#contact" class="text-accent hover:underline">contact us</NuxtLink>.
                 </p>
               </div>
             </div>
@@ -248,7 +248,7 @@ const lastUpdated = 'December 2024'
           <p class="text-white/70 mb-6">
             Now that you've read the boring stuff, let's get to the fun part.
           </p>
-          <a href="https://app.tablematch.com" class="btn-primary">
+          <a href="https://app.tablematchapp.com" class="btn-primary">
             Launch TableMatch
             <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />

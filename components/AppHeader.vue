@@ -4,7 +4,7 @@ const isMenuOpen = ref(false)
 const navLinks = [
   { name: 'Features', href: '/features' },
   { name: 'How It Works', href: '/how-it-works' },
-  { name: 'Use Cases', href: '/use-cases' },
+  // { name: 'Use Cases', href: '/use-cases' },
   { name: 'About', href: '/about' },
   { name: 'FAQ', href: '/faq' }
 ]
@@ -44,7 +44,7 @@ const closeMenu = () => {
           <!-- CTA Button -->
           <div class="hidden lg:block">
             <a
-              href="https://app.tablematch.com"
+              href="https://app.tablematchapp.com"
               class="btn-primary"
             >
               Launch App
@@ -90,7 +90,7 @@ const closeMenu = () => {
                 {{ link.name }}
               </NuxtLink>
               <a
-                href="https://app.tablematch.com"
+                href="https://app.tablematchapp.com"
                 class="btn-primary mt-2"
               >
                 Launch App

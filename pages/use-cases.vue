@@ -250,7 +250,7 @@ const industries = [
           <p class="subheading max-w-2xl mx-auto mb-8">
             Whether you're a casual player or running professional events, TableMatch adapts to how you play.
           </p>
-          <a href="https://app.tablematch.com" class="btn-primary text-lg !px-8 !py-4">
+          <a href="https://app.tablematchapp.com" class="btn-primary text-lg !px-8 !py-4">
             Try TableMatch Free
             <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />

@@ -8,7 +8,7 @@ const steps = [
   {
     number: 1,
     title: 'Open the App',
-    description: 'Visit app.tablematch.com on any device - phone, tablet, laptop, or even a smart TV browser.',
+    description: 'Visit app.tablematchapp.com on any device - phone, tablet, laptop, or even a smart TV browser.',
     details: [
       'Works on any modern browser (Chrome, Safari, Firefox, Edge)',
       'Add to your home screen for quick access',
@@ -125,9 +125,9 @@ const tips = [
         <div class="glass-hover p-8 text-center">
           <h2 class="heading-3 text-white mb-4">The 30-Second Version</h2>
           <p class="text-white/70 mb-6 max-w-2xl mx-auto">
-            Open app.tablematch.com &rarr; Pick teams &rarr; Start match &rarr; Tap to score. That's it!
+            Open app.tablematchapp.com &rarr; Pick teams &rarr; Start match &rarr; Tap to score. That's it!
           </p>
-          <a href="https://app.tablematch.com" class="btn-primary">
+          <a href="https://app.tablematchapp.com" class="btn-primary">
             Try It Now
             <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
@@ -267,7 +267,7 @@ const tips = [
           <p class="subheading max-w-2xl mx-auto mb-8">
             You've read the guide - now experience it for yourself. It's even easier than it sounds.
           </p>
-          <a href="https://app.tablematch.com" class="btn-primary text-lg !px-8 !py-4">
+          <a href="https://app.tablematchapp.com" class="btn-primary text-lg !px-8 !py-4">
             Launch TableMatch
             <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />

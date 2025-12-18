@@ -5,7 +5,6 @@ const footerLinks = {
   product: [
     { name: 'Features', href: '/features' },
     { name: 'How It Works', href: '/how-it-works' },
-    { name: 'Use Cases', href: '/use-cases' },
     { name: 'FAQ', href: '/faq' }
   ],
   company: [
@@ -71,7 +70,7 @@ const footerLinks = {
             No signup required. Just open the app and start playing.
           </p>
           <a
-            href="https://app.tablematch.com"
+            href="https://app.tablematchapp.com"
             class="btn-primary text-sm !px-4 !py-2"
           >
             Launch App

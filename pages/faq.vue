@@ -217,28 +217,16 @@ const faqCategories = [
     <!-- Contact Section -->
     <section id="contact" class="section-padding bg-white/5">
       <div class="container-max">
-        <div class="max-w-3xl mx-auto text-center">
-          <span class="text-accent font-semibold text-sm uppercase tracking-wider">Still Have Questions?</span>
-          <h2 class="heading-3 text-white mt-2 mb-6">Get in Touch</h2>
-          <p class="text-white/70 mb-8">
-            Can't find the answer you're looking for? We're here to help. Reach out and we'll get back to you as soon as possible.
-          </p>
-          <div class="glass-hover p-8">
-            <div class="flex flex-col sm:flex-row items-center justify-center gap-6">
-              <div class="flex items-center gap-3">
-                <div class="w-12 h-12 rounded-full bg-gradient-primary flex items-center justify-center">
-                  <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-                  </svg>
-                </div>
-                <div class="text-left">
-                  <p class="text-white/50 text-sm">Email us at</p>
-                  <a href="mailto:hello@tablematch.com" class="text-white hover:text-accent transition-colors">
-                    hello@tablematch.com
-                  </a>
-                </div>
-              </div>
-            </div>
+        <div class="max-w-xl mx-auto">
+          <div class="text-center mb-8">
+            <span class="text-accent font-semibold text-sm uppercase tracking-wider">Still Have Questions?</span>
+            <h2 class="heading-3 text-white mt-2 mb-4">Get in Touch</h2>
+            <p class="text-white/70">
+              Can't find the answer you're looking for? Send us a message and we'll get back to you.
+            </p>
+          </div>
+          <div class="glass-hover p-6 lg:p-8">
+            <ContactForm />
           </div>
         </div>
       </div>
@@ -293,7 +281,7 @@ const faqCategories = [
           <p class="subheading max-w-2xl mx-auto mb-8">
             Stop reading, start playing. TableMatch is ready when you are.
           </p>
-          <a href="https://app.tablematch.com" class="btn-primary text-lg !px-8 !py-4">
+          <a href="https://app.tablematchapp.com" class="btn-primary text-lg !px-8 !py-4">
             Launch TableMatch
             <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
