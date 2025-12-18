@@ -101,6 +101,13 @@ const footerLinks = {
           </NuxtLink>
         </div>
       </div>
+
+      <!-- Crafted By -->
+      <div class="mt-4 text-center">
+        <p class="text-white/30 text-xs">
+          Crafted by <a href="https://headless-digital.com" target="_blank" rel="noopener noreferrer" class="text-white/40 hover:text-accent transition-colors">Headless Digital</a>
+        </p>
+      </div>
     </div>
   </footer>
 </template>
