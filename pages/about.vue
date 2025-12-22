@@ -83,12 +83,14 @@ const timeline = [
             </div>
           </div>
           <div class="glass-hover p-6">
-            <div class="aspect-square bg-gradient-to-br from-primary/20 to-accent/20 rounded-xl flex items-center justify-center">
-              <div class="text-center">
-                <svg class="w-24 h-24 text-white/40 mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
-                </svg>
-                <p class="text-white/40">Made with love for table football</p>
+            <div class="aspect-square rounded-xl overflow-hidden relative">
+              <img
+                src="/screen-shots/match-inplay-safe.png"
+                alt="TableMatch in action"
+                class="w-full h-full object-cover"
+              />
+              <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent flex items-end justify-center pb-6">
+                <p class="text-white/80 font-medium">Made with love for table football</p>
               </div>
             </div>
           </div>

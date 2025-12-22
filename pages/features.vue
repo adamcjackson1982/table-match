@@ -321,14 +321,11 @@ const technicalFeatures = [
       <div class="container-max">
         <div class="grid lg:grid-cols-2 gap-12 items-center">
           <div class="order-2 lg:order-1 glass-hover p-4">
-            <div class="aspect-video bg-gradient-to-br from-primary/20 to-accent/20 rounded-lg flex items-center justify-center">
-              <div class="text-center">
-                <svg class="w-16 h-16 text-white/40 mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" />
-                </svg>
-                <p class="text-white/40">Tournament Bracket Screenshot</p>
-              </div>
-            </div>
+            <img
+              src="/screen-shots/tournament-in-play.png"
+              alt="Tournament bracket showing match progression"
+              class="w-full rounded-lg shadow-xl"
+            />
           </div>
           <div class="order-1 lg:order-2">
             <span class="text-accent font-semibold text-sm uppercase tracking-wider">Tournament Mode</span>
@@ -382,14 +379,20 @@ const technicalFeatures = [
               </div>
             </div>
           </div>
-          <div class="glass-hover p-4">
-            <div class="aspect-video bg-gradient-to-br from-primary/20 to-accent/20 rounded-lg flex items-center justify-center">
-              <div class="text-center">
-                <svg class="w-16 h-16 text-white/40 mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 17V7m0 10a2 2 0 01-2 2H5a2 2 0 01-2-2V7a2 2 0 012-2h2a2 2 0 012 2m0 10a2 2 0 002 2h2a2 2 0 002-2M9 7a2 2 0 012-2h2a2 2 0 012 2m0 10V7m0 10a2 2 0 002 2h2a2 2 0 002-2V7a2 2 0 00-2-2h-2a2 2 0 00-2 2" />
-                </svg>
-                <p class="text-white/40">League Table Screenshot</p>
-              </div>
+          <div class="grid gap-4">
+            <div class="glass-hover p-4">
+              <img
+                src="/screen-shots/league-in-play.png"
+                alt="League standings table showing points and positions"
+                class="w-full rounded-lg shadow-xl"
+              />
+            </div>
+            <div class="glass-hover p-4">
+              <img
+                src="/screen-shots/league-in-play-2.png"
+                alt="League fixtures and match schedule"
+                class="w-full rounded-lg shadow-xl"
+              />
             </div>
           </div>
         </div>

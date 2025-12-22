@@ -185,8 +185,8 @@ const tips = [
                 />
                 <img
                   v-else-if="step.icon === 'mode'"
-                  src="/screen-shots/index.png"
-                  alt="TableMatch mode selection with Match, Tournament, and League options"
+                  src="/screen-shots/tournament-in-play.png"
+                  alt="Tournament bracket showing knockout rounds"
                   class="w-full rounded-lg shadow-xl"
                 />
                 <img
